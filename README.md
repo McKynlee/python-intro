@@ -53,3 +53,6 @@ Open the Command Palette (⇧⌘P), use command 'Python: Select Interpreter', an
 
 
 
+## Useful Sources
+https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask#prerequisites
+
