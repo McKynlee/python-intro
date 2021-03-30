@@ -31,18 +31,25 @@ python3 --version
 pip3 --version
 
 
+
+
 ## Using VS Code with Python 
 1. Open a new repository in VS Code.
 
 1. Install the Python Extension in VS Code: ms-python.python
 
-1. Set up your environment:
-* Select your Python interpreter from the VS Code: 
+1. Set up your environment: Select your Python interpreter from the VS Code: 
 Open the Command Palette (⇧⌘P), use command 'Python: Select Interpreter', and choose the Python version from the available list that best matches the Python version you downloaded.
+
+1. VS Code may prompt you with additional installations for your Python environment, depending on your current setup.  Follow these suggestions and install the necessary tools.
 
 1. Save new Python files with the .py suffix, so that VS Code knows it is a Python file and will use the Python Interpreter with it.
 
-1. To run your .py code, simply click the right-facing "play" triangle at the top right of your .py file in VS Code (this is located directly to the left of the Split Screen double box button).
+1. To run your .py code, 4 options:
+    ii. Click the right-facing "play" triangle at the top right of your .py file in VS Code (this is located directly to the left of the Split Screen double box button and the "...").
+    ii. Right click anywhere in the editor window, and select "Run Python File in Terminal" (note, there is also an option to run the code in and Interactive Window- this is NOT what we are looking for!).
+    ii. Select the lines you want to run and press Shift+Enter.
+    ii. Open your Command Palette (⇧⌘P) and access the Python: Start REPL command.  This will open an REPL terminal for the current Python Interpreter you selected.  You can enter and run lines of code directly in the REPL terminal.
 
 
 
