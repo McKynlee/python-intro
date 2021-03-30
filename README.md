@@ -52,6 +52,13 @@ Open the Command Palette (⇧⌘P), use command 'Python: Select Interpreter', an
     ii. Open your Command Palette (⇧⌘P) and access the Python: Start REPL command.  This will open an REPL terminal for the current Python Interpreter you selected.  You can enter and run lines of code directly in the REPL terminal.
 
 
+## See Text Running in Browser:
+1. Open the api directory from this repo in your terminal.
+1. Run the api.py file by typing the following terminal command: python3 api.py
+1. You should receive a line of code that looks like * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+1. Copy and paste your equivalent of http://127.0.0.1:5000/ from that terminal response into your web browser.
+
+
 
 ## Useful Sources
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask#prerequisites
