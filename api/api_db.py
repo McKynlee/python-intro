@@ -12,20 +12,21 @@ app.config["DEBUG"] = True
 
 # Connect to PG db
 # conn = psycopg2.connect("dbname=books_db user=postgres password=postgres")
-conn = psycopg2.connect(
-  host="localhost",
-  port=5432,
-  database="books_db",
-  # user="postgres",
-  # password="postgres"
-)
 
 def connect():
   conn = None
   try:
-    params = config()
+    # params = config() # This is if you save db info in diff file
+    # conn = psycopg2.connect(**params)
     print('Connecting to the PostgreSQL database...')
-    conn = psycopg2.connect(**params)
+
+    conn = psycopg2.connect(
+      host="localhost",
+      port=5432,
+      database="books_db",
+      # user="postgres",
+      # password="postgres"
+    )
 
     cur = conn.cursor()
     print('PostgreSQL database version:')
